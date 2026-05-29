@@ -18,4 +18,4 @@ pip install requests pandas numpy scikit-learn xgboost openpyxl
 
 echo "🚀 开始分析..."
 python3 gp.py
-echo "✅ 完成！报告在 jiuyan_analysis/ 目录"
+echo "✅ 完成！报告在 涨停分析/ 目录"
