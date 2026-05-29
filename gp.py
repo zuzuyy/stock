@@ -19,7 +19,7 @@ from openpyxl.utils import get_column_letter
 warnings.filterwarnings('ignore')
 
 # ==================== 配置 ====================
-OUTPUT_DIR = Path("./jiuyan_analysis")
+OUTPUT_DIR = Path("./涨停分析")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ==================== 数据获取 ====================
