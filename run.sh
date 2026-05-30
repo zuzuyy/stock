@@ -13,7 +13,7 @@ fi
 source myenv/bin/activate
 echo "📦 安装/更新依赖..."
 pip install --upgrade pip -q
-pip install requests pandas numpy scikit-learn xgboost openpyxl
+pip install requests pandas numpy scikit-learn xgboost openpyxl img2table[tesseract] paddle easyocr
 
 echo "🚀 开始分析..."
 python3 gp.py
